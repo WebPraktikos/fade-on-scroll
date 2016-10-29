@@ -1,0 +1,12 @@
+# WINDOWS specific stuff
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+# Folder config file
+Desktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Project specific
+node_modules
+.vscode

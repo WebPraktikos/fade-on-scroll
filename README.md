@@ -34,7 +34,7 @@ var someIdentifier = FadeOnScroll( 'window' );
 
 **3.** Specify which element/s to manipulate and how.
 
-  **3.1** Inside JavaScript (or refer to 3.2 for html option).
+  **a)** Inside JavaScript (or refer to 3.2 for html option).
 
   Single element.
 
@@ -65,7 +65,7 @@ var services = someIdentifier([
 ])
 ```
 
-**3.2** Inside HTML. Special class name `fade-on-scroll` has to be used.
+  **b)** Inside HTML. Special class name `fade-on-scroll` has to be used.
 
 ```javascript
 <header class="main-header fade-on-scroll" data-fos-options='{ "waypoint": "self", "direction": "top" }'>

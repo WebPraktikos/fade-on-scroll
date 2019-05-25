@@ -20,7 +20,7 @@ Not so great.
 
 ## Usage
 
-**1.** Include it in a HTML document.
+**1.** Include it in HTML document.
 
 ```javascript
 <script src="/path/to/fade-on-scroll.js"></script>
@@ -34,9 +34,9 @@ var someIdentifier = FadeOnScroll( 'window' );
 
 **3.** Specify which element/s to manipulate and how.
 
-**3.1** Inside a JavaScript (refer to 3.2. for html).
+  **3.1** Inside JavaScript (or refer to 3.2 for html option).
 
-**3.1.1** Single element.
+  Single element.
 
 ```javascript
 var services = someIdentifier( '.promo-boxes__prgf', {
@@ -45,7 +45,7 @@ var services = someIdentifier( '.promo-boxes__prgf', {
 })
 ```
 
-**3.1.2** Multiple elements.
+  Multiple elements.
 
 ```javascript
 var services = someIdentifier([
@@ -65,7 +65,7 @@ var services = someIdentifier([
 ])
 ```
 
-**3.2** Inside a HTML. Special class name `fade-on-scroll` has to be used.
+**3.2** Inside HTML. Special class name `fade-on-scroll` has to be used.
 
 ```javascript
 <header class="main-header fade-on-scroll" data-fos-options='{ "waypoint": "self", "direction": "top" }'>
@@ -88,4 +88,4 @@ var services = someIdentifier([
 
 The MIT License (MIT)
 
-Copyright (c) WebPraktikos <hi@webpraktikos.com> [@webpraktikos](https://twitter.com/webpraktikos).
+©&nbsp;2017 WebPraktikos <hi@webpraktikos.com> [@webpraktikos](https://twitter.com/webpraktikos).

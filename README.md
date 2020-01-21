@@ -1,26 +1,21 @@
 # fade-on-scroll
 
-Minimal library for synced fade on scroll, on multiple elements, with a few important options.
+Minimal library for synced fade on scroll on multiple elements.
 
 - It uses one scroll event listener for all instances.
-- It's **dependency-free** - no JQuery.
-- Options can be set inside a JavaScript file or inside a html element.
+- It's **dependency-free** — no JQuery.
+- Options can be set in JavaScript html element.
 - It uses *requestAnimationFrame* with polyfill.
 
 Demo: [Codepen](http://codepen.io/webpraktikos/pen/ZWZJBm)
 
 ## Purpose of Existence
 
-The only solutions I've found at the time:
-
-- huge multipurpose libraries,
-- too limiting scripts.
-
-Not so great.
+The only solutions that I've found at the time were huge multipurpose libraries or too limiting scripts.
 
 ## Usage
 
-**1.** Include it in HTML document.
+**1.** Include it in a HTML document.
 
 ```javascript
 <script src="/path/to/fade-on-scroll.js"></script>
@@ -71,7 +66,7 @@ var services = someIdentifier([
 <header class="main-header fade-on-scroll" data-fos-options='{ "waypoint": "self", "direction": "top" }'>
 ```
 
-**Important Note:** Options set in the HTML must be valid JSON. Keys need to be quoted, for example `"itemSelector"`:. Attribute `data-fos-options` is set with a single quote `'`, but JSON entities use double-quotes `"`.
+**Attention:** Options set in the HTML must be valid JSON. Keys need to be quoted, for example `"itemSelector"`:. Attribute `data-fos-options` is set with a single quote `'`, but JSON entities use double-quotes `"`.
 
 ### Options
 
